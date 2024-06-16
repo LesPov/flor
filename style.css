@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(img/waira.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.contenedor {
+    position: absolute;
+
+    scale: 1.2;
+}
+
+.flor1 {
+    width: 10%;
+    height: 35%;
+    top: 672px;
+    transform: rotate(12deg);
+    left: -26.5px;
+}
+
+.flor2 {
+    width: 10%;
+    height: 35%;
+    top: 632px;
+    transform: rotate(12deg);
+    left: 43.5px;
+
+}
+
+.flor3 {
+    width: 10%;
+    height: 35%;
+    top: 544px;
+    transform: rotate(12deg);
+    left: -26.5px;
+    z-index: -1;
+}
+
+.flor4 {
+    width: 10%;
+    height: 35%;
+    top: 632px;
+    transform: rotate(342deg);
+    right: 98.5px;
+
+}
+
+.flor5 {
+    width: 10%;
+    height: 35%;
+    top: 672px;
+    transform: rotate(12deg);
+    right: 87.5px;
+
+}
+
+.flor6 {
+    width: 10%;
+    height: 35%;
+    top: 728px;
+    left: 137.5px;
+
+}
+
+.eContenedores .petalo1 {
+    background: linear-gradient(to top, #fdc300, #fd9800, #d15b01);
+    width: 35px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: 15px;
+    /* Ajustado para centrar los pétalos */
+    left: 20px;
+    /* Ajustado para centrar los pétalos */
+    border-top-right-radius: 75px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 15px;
+    rotate: 30deg;
+}
+
+.eContenedores .petalo2 {
+    background: linear-gradient(to top, #fdc300, #fd9800, #d15b01);
+    width: 35px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: -16.5px;
+    /* Ajustado para centrar los pétalos */
+    left: 51px;
+    /* Ajustado para centrar los pétalos */
+    border-top-right-radius: 75px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 15px;
+    rotate: 300deg;
+    border: 0.5px solid #000;
+}
+
+
+.eContenedores .petalo3 {
+    background: linear-gradient(to top, #fdc300, #fd9800, #d15b01);
+    width: 35px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: -45px;
+    /* Ajustado para centrar los pétalos */
+    left: 15.25px;
+    /* Ajustado para centrar los pétalos */
+    border-top-right-radius: 75px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 15px;
+    rotate: 204deg;
+    border: 0.5px solid #000;
+}
+
+.eContenedores .petalo4 {
+    background: linear-gradient(to top, #fdc300, #fdc300, #d15b01);
+    width: 35px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: -12px;
+    /* Ajustado para centrar los pétalos */
+    left: -14px;
+    /* Ajustado para centrar los pétalos */
+    border-top-right-radius: 75px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 15px;
+    rotate: 115deg;
+    border: 0.5px solid #000;
+}
+
+.eContenedores .petalo5 {
+    background: linear-gradient(to top, #fdc300, #fdc300, #d15b01);
+    width: 35px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: -34px;
+    /* Ajustado para centrar los pétalos */
+    left: 45.25px;
+    /* Ajustado para centrar los pétalos */
+    border-top-right-radius: 75px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+    rotate: 260deg;
+    border: 0.5px solid #000;
+}
+
+.eContenedores .petalo6 {
+    background: linear-gradient(to top, #fdc300, #fdc300, #d15b01);
+    width: 35px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: -34px;
+    /* Ajustado para centrar los pétalos */
+    left: -8px;
+    /* Ajustado para centrar los pétalos */
+    border-top-right-radius: 75px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 15px;
+    z-index: 1;
+    rotate: 159deg;
+    border: 0.5px solid #000;
+}
+
+.eContenedores .petalo7 {
+    background: linear-gradient(to top, #fdc300, #fd9800, #d15b01);
+    width: 35px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: 11px;
+    /* Ajustado para centrar los pétalos */
+    left: -1.5px;
+    /* Ajustado para centrar los pétalos */
+    border-top-right-radius: 75px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 15px;
+    rotate: 63deg;
+    border: 0.5px solid #000;
+    z-index: 1;
+}
+
+.eContenedores .petalo8 {
+    background: linear-gradient(to top, #fdc300, #fd9800, #d15b01);
+    width: 35px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: 11px;
+    /* Ajustado para centrar los pétalos */
+    left: 43.5px;
+    /* Ajustado para centrar los pétalos */
+    border-top-right-radius: 75px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 15px;
+    rotate: 356deg;
+    border: 0.5px solid #000;
+    z-index: 1;
+}
+
+.centro {
+    background: -webkit-radial-gradient(center, circle, #000, #3f1816 50%);
+    width: 40px;
+    /* Ajustado para hacer la flor más pequeña */
+    height: 38px;
+    /* Ajustado para hacer la flor más pequeña */
+    position: absolute;
+    top: -7px;
+    /* Ajustado para centrar el centro */
+    left: 18px;
+    /* Ajustado para centrar el centro */
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.tallo {
+    background: linear-gradient(to top, #43573e, #43573e, #667266);
+    position: absolute;
+    top: 55px;
+    /* Ajustado para hacer el tallo más pequeño */
+    left: 34px;
+    /* Ajustado para centrar el tallo */
+    width: 7.5px;
+    /* Ajustado para hacer el tallo más pequeño */
+    height: 120px;
+    /* Ajustado para hacer el tallo más pequeño */
+    z-index: -1;
+}
+
+.hoja1 {
+    background: linear-gradient(to left top, #a4ff59, #294c0c, #a4ff59);
+    width: 35px;
+    /* Ajustado para hacer la hoja más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la hoja más pequeña */
+    position: absolute;
+    border: 1px solid #39492c;
+    top: 70.5px;
+    /* Ajustado para centrar la hoja */
+    left: 42px;
+    /* Ajustado para centrar la hoja */
+    border-top-right-radius: 0px;
+    border-top-left-radius: 249px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 288.5px;
+    rotate: 90deg;
+}
+
+.hoja2 {
+    background: linear-gradient(to left bottom, #a4ff59, #294c0c, #a4ff59);
+    border: 1px solid #39492c;
+    width: 35px;
+    /* Ajustado para hacer la hoja más pequeña */
+    height: 50px;
+    /* Ajustado para hacer la hoja más pequeña */
+    position: absolute;
+    top: 104.5px;
+    /* Ajustado para centrar la hoja */
+    left: 2.5px;
+    /* Ajustado para centrar la hoja */
+    border-top-right-radius: 288.5px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 249px;
+    border-bottom-right-radius: 0px;
+    rotate: 75deg;
+}
+
+.hoja1,
+.hoja2 {
+    transition: transform 0.8s;
+}
+
+.petalo {
+    transition: transform 0.8s;
+}
+
+/* Agrega estilos para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-contenido {
+    background-color: #fefefe;
+    margin: 100px 20px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.modal-contenido p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    margin-right: 25px;
+}
+
+.cerrar {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.cerrar:hover,
+.cerrar:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
